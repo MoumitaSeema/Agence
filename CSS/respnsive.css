@@ -1,0 +1,831 @@
+/* =============================== extra small start =============================== */  
+@media (min-width:320px) and (max-width:575px) {
+    /* =============================== navbar css start =============================== */
+    nav {
+        top: 30px;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+      }
+    .navbar-toggler{
+        background: white;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    nav .navbar-nav{
+        margin-top: 10px !important;
+    }
+    nav ul{
+        border:1px solid #6a4df4 ;
+    }
+    nav .navbar-nav li{
+        background-color: black;
+        text-align: center;
+        border-bottom: 1px solid #6a4df4;
+        margin-right: 0;
+    }
+    nav .navbar-nav li:last-child{
+        border-bottom: 0;
+    }
+    nav .custom_btn{
+        margin-top: 20px;
+    }
+    /* ================================ navbar css end ================================ */
+    /* ============================ banner css start ============================== */
+    #banner .heading h1 {
+        font-size: 50px;
+        width: auto;
+    }
+    #banner .info p {
+        width: auto;
+        font-size: 13px;
+    }
+    #banner .overlay {
+        padding-top: 170px;
+        padding-bottom: 115px;
+    }
+    /* =============================== banner css end ============================== */
+    /* =============================== overview css start ============================== */
+    #overview .overview-color {
+        width: auto;
+        height: auto; 
+    }
+    #overview .success {
+        padding-top: 36px;
+        padding-left: 17px;
+    }
+    #overview .success h2 {
+        font-size: 48px;
+        width: auto;
+    }
+    #overview .success p {
+        font-size: 20px;
+        width: auto;
+    }
+    #overview .content {
+        padding-bottom: 53px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -41px;
+      }
+    #overview .content h2 {
+        font-size: 45px;
+        padding-top: 15px;
+    }
+    #overview .content p {
+        font-size: 12px;
+    }
+   /* =============================== overview css end ============================== */
+   /* =============================== Services css start ============================== */
+   .title h2 {
+	font-size: 35px;
+    }
+    .title p {
+        
+        font-size: 12px;
+        width: auto; 
+    }
+    #services .custom-card h2 {
+        font-size: 23px;   
+    }
+
+    #services .custom-card p {
+        font-size: 13px;
+        width: auto;
+    }
+    #services .custom-card {
+        padding: 80px 28px;
+    }
+     /* =============================== Services css end ============================== */
+     /* ================================ Our Recent Work css start ================================ */
+     .title h2 {
+        font-size: 33px;
+    }
+    .title p {
+        font-size: 11px;
+        width: auto;
+    }
+    #recent_work .app-design {
+        margin: 80px 25px;
+    }
+    #recent_work .app-design h2 {
+        font-size: 20px;
+    }
+    #recent_work .app-design p {
+        font-size: 13px;
+        width: auto;
+    }
+
+     /* ================================ Our Recent Work css end ================================ */
+      /* ================================ Why You Should Choose Agence css start ================================ */
+      #agence .title h2 {
+        width: auto;
+    }
+    #agence .title p {
+        font-size: 11px;
+        width: auto;
+    }
+    #agence .item h3 {
+        font-size: 18px;
+    }
+    #agence .item p {
+        font-size: 13px;
+        width: auto;
+    }
+     /* ================================ Why You Should Choose Agence css end ================================ */
+     /* ================================ customer reviews css start ================================ */
+     #reviews .item p {
+        font-size: 13px;
+        width: auto;
+    }
+
+     /* ================================ customer reviews css end ================================ */
+     /* ================================ Form css start ================================ */
+     #design .text h2 {
+        font-size: 30px;
+        width:auto;
+    }
+    #design .text p {
+        font-size: 13px;
+        width: auto;
+        margin-bottom: 26px;
+    }
+    #design .form {
+        width:auto;
+        margin: 30px 18px;
+        
+    }
+    #design .form h3 {
+        font-size: 30px;
+        
+    }
+    #design .form form button {
+        
+        padding: 19px 0px;
+        width: auto;
+        
+    }
+
+     /* ================================ Form css END ================================ */
+     /* ================================ Footer css start ================================ */
+     footer .img {
+        padding-top: 80px;
+    }
+    footer p {
+        padding-top: 25px;
+        width:auto;
+        font-size: 13px;
+        
+    }
+    footer .main {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 0px !important;
+        padding-top: 0px;
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+    }
+    .copy-right p {
+        padding: 4px 0px;
+    }
+     /* ================================ Footer css end ================================ */
+
+}
+/* =============================== extra small end =============================== */
+/* =============================== small start =============================== */
+ @media (min-width:576px) and (max-width:767px) {
+    /* =============================== navbar css start =============================== */
+    nav {
+        top: 30px;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+      }
+    .navbar-toggler{
+        background: white;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    nav .navbar-nav{
+        margin-top: 10px !important;
+    }
+    nav ul{
+        border:1px solid #6a4df4 ;
+    }
+    nav .navbar-nav li{
+        background-color: black;
+        text-align: center;
+        border-bottom: 1px solid #6a4df4;
+        margin-right: 0;
+    }
+    nav .navbar-nav li:last-child{
+        border-bottom: 0;
+    }
+    nav .custom_btn{
+        margin-top: 20px;
+    }
+    /* ================================ navbar css end ================================ */
+    /* ============================ banner css start ============================== */
+    #banner .heading h1 {
+        font-size: 50px;
+        width: auto;
+    }
+    #banner .info p {
+        width: auto;
+        font-size: 13px;
+    }
+    #banner .overlay {
+        padding-top: 170px;
+        padding-bottom: 115px;
+    }
+    /* ============================ banner css end ============================== */  
+    /* =============================== overview css start ============================== */
+    #overview .overview-color {
+        width: auto;
+        height: auto;
+        margin-top: 138px;
+    }
+    #overview .success {
+        padding-top: 54px;
+        padding-left: 28px;
+        padding-bottom: 114px;
+    }
+    #overview .success h2 {
+        font-size: 40px;
+        width: 281px;
+    }
+    #overview .success p {
+        font-size: 26px;
+        width: 576px;
+        padding-top: 7px;
+    }
+    #overview .content {
+        padding-bottom: 50px;
+        margin: 0px 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    /* =============================== overview css end ============================== */
+    /* =============================== Services css start ============================== */
+   .title h2 {
+	font-size: 35px;
+    }
+    .title p {
+        
+        font-size: 12px;
+        width: auto; 
+    }
+    #services .custom-card h2 {
+        font-size: 23px;   
+    }
+
+    #services .custom-card p {
+        font-size: 13px;
+        width: auto;
+    }
+    #services .custom-card {
+        padding: 80px 28px;
+    }
+     /* =============================== Services css end ============================== */
+      /* ================================ Our Recent Work css start ================================ */
+      .title h2 {
+        font-size: 33px;
+    }
+    .title p {
+        font-size: 11px;
+        width: auto;
+    }
+    #recent_work .app-design {
+        padding: 80px 25px;
+    }
+    #recent_work .app-design h2 {
+        font-size: 20px;
+    }
+    #recent_work .app-design p {
+        font-size: 13px;
+        width: auto;
+    }
+
+     /* ================================ Our Recent Work css end ================================ */
+     /* ================================ Why You Should Choose Agence css start ================================ */
+     #agence .title h2 {
+        width: auto;
+    }
+    #agence .title p {
+        font-size: 11px;
+        width: auto;
+    }
+    #agence .item {
+        margin-left: 50px;
+    }
+    #agence .item h3 {
+        font-size: 18px;
+    }
+    #agence .item p {
+        font-size: 13px;
+        width: auto;
+    }
+     /* ================================ Why You Should Choose Agence css end ================================ */
+      /* ================================ customer reviews css start ================================ */
+      #reviews .title p {
+        font-size: 14px;
+        width: auto;
+    }
+      #reviews .item p {
+        font-size: 13px;
+        width: auto;
+    }
+
+     /* ================================ customer reviews css end ================================ */
+     /* ================================ Form css start ================================ */
+     #design .text h2 {
+        font-size: 30px;
+        width:auto;
+    }
+    #design .text p {
+        font-size: 13px;
+        width: auto;
+        margin-bottom: 26px;
+    }
+    #design .form {
+        width:auto;
+        margin: 30px 18px;
+    }
+    #design .form h3 {
+        font-size: 30px;
+        
+    }
+    #design .form form button {
+        
+        padding: 19px 0px;
+        width: auto;
+        
+    }
+
+     /* ================================ Form css END ================================ */
+      /* ================================ Footer css start ================================ */
+      footer .img {
+        padding-top: 85px;
+    }
+    footer p {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        width:auto;
+        font-size: 14px;
+    }
+    footer .main {
+            display: flex;
+            justify-content: flex-start;
+            column-gap: 30px;
+            padding-top: 0px;
+            padding-bottom: 50px;
+    }
+    footer .main .about ul {
+        margin-top: 12px;
+    }
+    footer .main .about ul li {
+        padding-top: 10px;
+    }
+    footer .main .about ul li a {
+        font-size: 14px;
+    }
+    .copy-right p {
+        padding: 6px 0px 40px 0px;
+    }
+     /* ================================ Footer css end ================================ */
+
+    
+}                        
+/* =============================== small end =============================== */
+/* ============================ medium start ============================== */  
+     @media (min-width:768px) and (max-width:991px) {
+        /* ================================ navbar css start ================================ */
+        nav {
+            top: 30px;
+            transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -moz-transform: translateY(0);
+            -ms-transform: translateY(0);
+            -o-transform: translateY(0);
+          }
+        .navbar-toggler{
+            background: white;
+        }
+        .navbar-toggler:focus {
+            box-shadow: none !important;
+        }
+        nav .navbar-nav{
+            margin-top: 10px !important;
+        }
+        nav ul{
+            border:1px solid #6a4df4 ;
+        }
+        nav .navbar-nav li{
+            background-color: black;
+            text-align: center;
+            border-bottom: 1px solid #6a4df4;
+            margin-right: 0;
+        }
+        nav .navbar-nav li:last-child{
+            border-bottom: 0;
+        }
+        nav .custom_btn{
+            margin-top: 20px;
+        }
+    /* ================================ navbar css end ================================ */
+    /* ============================ banner css start ============================== */
+        #banner .heading h1 {
+            font-size: 50px;
+            width: auto;
+        }
+        #banner .info p {
+            width: auto;
+            font-size: 13px;
+        }
+        #banner .overlay {
+            padding-top: 170px;
+            padding-bottom: 115px;
+        }
+    
+    /* ============================ banner css end ============================== */
+     /* =============================== overview css start ============================== */
+     #overview .overview-color {
+        width: auto;
+        height: auto;
+        margin-top: 138px;
+    }
+    #overview .success {
+        padding-top: 54px;
+        padding-left: 28px;
+        padding-bottom: 114px;
+    }
+    #overview .success h2 {
+        font-size: 40px;
+        width: 281px;
+    }
+    #overview .success p {
+        font-size: 26px;
+        width: 576px;
+        padding-top: 7px;
+    }
+    #overview .content {
+        padding-bottom: 50px;
+        margin: 0px 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    /* =============================== overview css end ============================== */
+    /* =============================== Services css start ============================== */
+   .title h2 {
+	font-size: 38px;
+    }
+    .title p {
+        
+        font-size: 16px;
+        width: auto; 
+    }
+    #services .custom-card h2 {
+        font-size: 30px;  
+    }
+
+    #services .custom-card p {
+        font-size: 18px;
+        width: auto;
+    }
+    
+     /* =============================== Services css end ============================== */
+      /* ================================ Our Recent Work css start ================================ */
+      .title h2 {
+        font-size: 33px;
+    }
+    .title p {
+        font-size: 11px;
+        width: auto;
+    }
+    #recent_work .app-design {
+        padding: 80px 25px;
+    }
+    #recent_work .app-design h2 {
+        font-size: 20px;
+    }
+    #recent_work .app-design p {
+        font-size: 13px;
+        width: auto;
+    }
+
+     /* ================================ Our Recent Work css end ================================ */
+      /* ================================ Why You Should Choose Agence css start ================================ */
+      #agence .title h2 {
+        width: auto;
+    }
+    #agence .title p {
+        font-size: 13px;
+        width: auto;
+    }
+    #agence .item {
+        margin-top: 88px;
+        margin-left: 130px;
+    }
+    #agence .item h3 {
+        font-size: 18px;
+    }
+    #agence .item p {
+        font-size: 13px;
+        width: auto;
+    }
+     /* ================================ Why You Should Choose Agence css end ================================ */
+      /* ================================ customer reviews css start ================================ */
+      #reviews .title p {
+        font-size: 14px;
+        width: auto;
+    }
+      #reviews .item p {
+        font-size: 13px;
+        width: auto;
+    }
+     /* ================================ customer reviews css end ================================ */
+      /* ================================ Form css start ================================ */
+      #design .text h2 {
+        font-size: 30px;
+        width:auto;
+    }
+    #design .text p {
+        font-size: 13px;
+        width: auto;
+        margin-bottom: 26px;
+    }
+    #design .form {
+        width:auto;
+        margin: 30px 18px;
+    }
+    #design .form h3 {
+        font-size: 30px;
+        
+    }
+    #design .form form button {
+        
+        padding: 19px 0px;
+        width: auto;
+        
+    }
+
+     /* ================================ Form css END ================================ */
+     /* ================================ Footer css start ================================ */
+     footer .img {
+        padding-top: 85px;
+    }
+    footer p {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        width:auto;
+        font-size: 14px;
+    }
+    footer .main {
+            display: flex;
+            justify-content: flex-start;
+            column-gap: 85px;
+            padding-top: 0px;
+            padding-bottom: 50px;
+    }
+    footer .main .about ul {
+        margin-top: 12px;
+    }
+    footer .main .about ul li {
+        padding-top: 10px;
+    }
+    footer .main .about ul li a {
+        font-size: 15px;
+    }
+    .copy-right p {
+        padding: 6px 0px 40px 0px;
+    }
+     /* ================================ Footer css end ================================ */
+
+    
+     }
+/* ============================ medium end ============================== */
+/* ============================ large start ============================== */
+     @media (min-width:992px) and (max-width:1199px) {
+        /* ================================ navbar css start ================================ */
+        nav ul li {
+            margin-right: 10px;
+        }
+    /* ================================ navbar css end ================================ */
+    /* ============================ banner css start ============================== */
+        #banner .heading h1 {
+            font-size: 50px;
+            width: auto;
+        }
+        #banner .info p {
+            width: auto;
+            font-size: 19px;
+        }
+        #banner .overlay {
+            padding-top: 170px;
+            padding-bottom: 120px;
+        }
+    /* ============================ banner css end ============================== */
+    /* =============================== overview css start ============================== */
+    #overview .overview-color {
+        width: auto;
+        height: auto;
+        margin-top: 138px;
+      
+      }
+      #overview .success {
+        padding-top: 54px;
+        padding-left: 28px;
+        padding-bottom: 114px;
+      }
+      #overview .success h2 {
+        font-size: 40px;
+        width: 715px;
+      }
+      #overview .success p {
+        font-size: 26px;
+        width: 576px;
+        padding-top: 7px;
+      }
+    #overview .content {
+        padding-bottom: 50px;
+        margin: 0px 22px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+/* =============================== overview css end ============================== */
+/* =============================== Services css start ============================== */
+.title h2 {
+	font-size: 38px;
+    }
+    .title p {
+        
+        font-size: 16px;
+        width: auto; 
+    }
+    #services .custom-card h2 {
+        font-size: 30px;  
+    }
+
+    #services .custom-card p {
+        font-size: 15px;
+        width: auto;
+    }
+    #services .custom-card {
+        padding: 25px 15px;
+        
+    }
+    
+     /* =============================== Services css end ============================== */
+      /* ================================ Our Recent Work css start ================================ */
+      .title h2 {
+        font-size: 40px;
+    }
+    .title p {
+        font-size: 21px;
+        width: auto;
+    }
+    #recent_work .app-design {
+        padding: 70px 25px;
+    }
+    #recent_work .app-design h2 {
+        font-size: 27px;
+    }
+    #recent_work .app-design p {
+        font-size: 15px;
+        width: auto;
+    }
+
+     /* ================================ Our Recent Work css end ================================ */
+      /* ================================ Why You Should Choose Agence css start ================================ */
+      #agence .title h2 {
+        width: auto;
+    }
+    #agence .title p {
+        font-size: 13px;
+        width: auto;
+    }
+    #agence .item {
+        margin-top: 88px;
+        margin-left: 50px;
+    }
+    #agence .item h3 {
+        font-size: 18px;
+    }
+    #agence .item p {
+        font-size: 13px;
+        width: auto;
+    }
+     /* ================================ Why You Should Choose Agence css end ================================ */
+      /* ================================ customer reviews css start ================================ */
+      #reviews .item {
+        margin-top: 43px;
+        padding:31px 58px;
+        margin-bottom: 2px;
+        
+    }
+            #reviews .item p {
+        font-size: 20px;
+        width: auto;
+    }
+     /* ================================ customer reviews css end ================================ */
+      /* ================================ Form css start ================================ */
+      #design .text h2 {
+        font-size: 34px;
+        width:auto;
+    }
+    #design .text p {
+        font-size: 13px;
+        width: auto;
+        margin-bottom: 26px;
+    }
+    #design .form {
+        width:auto;
+        margin: 30px 18px;
+    }
+    #design .form h3 {
+        font-size: 30px;
+        
+    }
+    #design .form form button {
+        
+        padding: 19px 0px;
+        width: auto;
+        
+    }
+
+     /* ================================ Form css END ================================ */
+     /* ================================ Footer css start ================================ */
+     footer .img {
+        padding-top: 55px;
+    }
+    footer p {
+        width: auto;
+        font-size: 12px;
+    }
+    footer .main {
+            display: flex;
+            justify-content: flex-start;
+            column-gap: 70px;
+            padding-top: 55px;
+            padding-bottom: 50px;
+    }
+    footer .main .about ul {
+        margin-top: 12px;
+    }
+    footer .main .about ul li {
+        padding-top: 10px;
+    }
+    footer .main .about ul li a {
+        font-size: 15px;
+    }
+    .copy-right p {
+        padding: 6px 0px 40px 0px;
+    }
+     /* ================================ Footer css end ================================ */
+
+    
+     }
+/* ============================ large end ============================== */
+/* ============================  extra large start ============================== */
+ @media (min-width:1200px) and (max-width:1399px) {
+    #overview .overview-color {
+        width: auto;
+        height: 300px;
+        margin-top: 171px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+      }
+ }
+
+
+/* ============================ extra large end ============================== */
+/* ============================ extra extra large start ============================== */
+    @media (min-width:1400px)  {
+
+    }
+/* ============================ extra extra large end ============================== */
+
+
+
+
+
+
+
+
+
+

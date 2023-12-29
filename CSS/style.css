@@ -1,0 +1,497 @@
+/* ================================ common css start ================================ */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+q:before,
+q:after {
+  content: "";
+}
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Inter', sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.custom_btn a {
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #6A4DF4 !important;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding:15px 42px;
+  text-transform: capitalize;
+}
+
+.title{
+  text-align: center;
+  margin: auto;
+}
+.title h2{
+  font-weight: 700;
+  font-size: 45px;
+}
+.title p{
+  font-weight: 400;
+  font-size: 16px;
+  width: 609px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* ================================ common css end ================================ */
+/* ================================ navber css start ================================ */
+nav{
+  background-color: transparent;
+  position:absolute !important;
+  width: 100%;
+  top: 65px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+nav ul li {
+    margin-right: 67px;
+}
+nav ul li a{
+   font-size: 18px;
+   font-weight: 400;
+   text-transform: capitalize;
+   transition: .4s !important ;
+   -webkit-transition: .4s ;
+   -moz-transition: .4s ;
+   -ms-transition: .4s ;
+   -o-transition: .4s ;
+   color: #fff !important;
+}
+nav ul li a:hover{
+    font-weight: 700;
+    color: #6A4DF4 !important;
+
+}
+
+/* ================================ navber css end ================================ */
+/* ================================ banner css start ================================ */
+#banner{
+  background-image: url(../image/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner .overlay{
+  background: rgba(0,0,0,0.6);
+  color: #FFF;
+  text-align: center;
+  padding-top: 315px;
+  padding-bottom: 176px; 
+}
+#banner .flex-d{
+    flex-direction: column;
+}
+#banner .heading h1{
+  font-weight: 700;
+  font-size: 75px;
+  width: 950px;
+  margin: auto;
+}
+#banner .info p{
+  width: 621px;
+  font-weight: 400;
+  font-size: 16px ;
+  margin: auto;
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* ================================ banner css end ================================ */
+/* ================================ overview css start ================================ */
+ #overview .overview-color{
+  background-color: #E0FFF9;
+  width:1320px;
+  height: 300px;
+  margin-top: 171px;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -ms-border-radius:20px;
+  -o-border-radius:20px;
+}
+#overview .success{
+  padding-top: 85px;
+  padding-left: 50px;
+  padding-bottom: 185px;
+}
+
+#overview .success h2{
+  font-size: 25px;
+  font-weight: 500;
+  color: #6A4DF4;
+  width: 158px;
+}
+
+#overview .success p {
+  font-size: 35px;
+  font-weight: 600;
+  width: 387px;
+}
+#overview .content h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #151515;
+  padding-top: 67px;
+
+}
+#overview .content p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #737373;
+}
+
+/* ================================ overview css end ================================ */
+/* ================================ Our Provided Services css start ================================ */
+#services {
+  margin: 167px 0px;
+}
+#services .custom-margin{
+  margin-top: 46px;
+  
+}
+#services .custom-card {
+  text-align: center;
+  padding: 80px 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+#services .custom-card:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+
+}
+#services .custom-card img{
+  /* display: inline; */
+  margin: auto;
+}
+
+#services .custom-card h2 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #151515;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#services .custom-card p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #737373;
+  width: 326 px;
+  margin: auto;  
+}
+/* ================================ Our Provided Services css end ================================ */
+/* ================================ Our Recent Work css start ================================ */
+#recent_work{
+  margin: 167px 0px;
+}
+#recent_work .custom-margin{
+  margin-top: 46px;
+}
+#recent_work .app-design{
+  text-align: center;
+  padding: 80px 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#recent_work .app-design:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+
+}
+#recent_work .app-design img {
+  margin: auto;
+ 
+}
+#recent_work .app-design h2{
+  font-family: 700;
+  font-size: 25px;
+  color: #151515;
+  margin: 40px 0 20px 0;
+}
+
+#recent_work .app-design p{
+  font-family: 400;
+  font-size: 16px;
+  color: #737373;
+  width: 326px;
+  margin:auto;
+}
+/* ================================ Our Recent Work css end ================================ */
+/* ================================ Why You Should Choose Agence css start ================================ */
+#agence .title h2 {
+  width: 518px;
+  margin:auto;
+}
+#agence .title p {
+  width: 802px;
+}
+#agence .item {
+  margin-top: 130px;
+  margin-bottom: 106px;
+}
+#agence .custom-row-gap {
+  row-gap: 88px ;
+}
+#agence .item h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #151515;
+  margin: 20px 0px 10px 0px;
+}
+
+#agence .item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #737373;
+  width: 344px;
+}
+/* ================================ Why You Should Choose Agence css end ================================ */
+/* ================================ customer reviews css start ================================ */
+#reviews {
+  margin-top: 106px;
+}
+#reviews .custom-margin {
+  margin-top: 130px;
+}
+#reviews .item {
+ background-color: #fff;
+ padding: 54px 58px;
+ border-radius: 30px;
+ -webkit-border-radius: 30px;
+ -moz-border-radius: 30px;
+ -ms-border-radius: 30px;
+ -o-border-radius: 30px;
+ transition: .4s ;
+ -webkit-transition: .4s ;
+ -moz-transition: .4s ;
+ -ms-transition: .4s ;
+ -o-transition: .4s ;
+}
+#reviews .item:hover {
+  background-color: #F4EFEF;
+}
+
+#reviews .item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7B7B7B;
+  width: 307px;
+  margin: 20px 0px;
+}
+#reviews .item .custom-flex {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+#reviews .item .custom-flex .user-details h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #232323;
+}
+#reviews .item .custom-flex .user-details h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7B7B7B;
+}
+/* ================================ customer reviews css end ================================ */
+/* ================================ Form css start ================================ */
+#design {
+  background-color: #F3F3F3;
+  padding: 150PX 0PX;
+}
+#design .text{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#design .text h2 {
+ font-size: 45px;
+ font-weight: 700;
+ color: #151515;
+ width: 470px;
+ margin-bottom: 20px;
+}
+
+#design .text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7B7B7B;
+  width: 514px;
+  margin-top: 10px;
+ }
+ 
+#design .form {
+  background-color: #fff;
+  padding: 61px 0px;
+  width: 536px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#design .form h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #151515;
+  text-align: center;
+}
+#design .form form {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 43px;
+}
+#design .form form label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #151515;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+#design .form form input {
+  font-size: 16px;
+  font-weight: 400;
+  color: #D0D0D0;
+  padding: 19px 0px 19px 23px;
+  border: 1px solid #D0D0D0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#design .form form button {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  align-items: center;
+  padding: 19px 0px;
+  width: 450px;
+  background-color: #6A4DF4;
+  border: 0px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 30px;
+}
+/* ================================ Form css end ================================ */
+/* ================================ Footer css start ================================ */
+footer .img {
+  padding-top: 150px;
+}
+footer p {
+  padding-top: 30px;
+  padding-bottom: 138px;
+  width: 356px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #7B7B7B;
+}
+footer .main {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 131px;
+  padding-top: 150px;
+  padding-bottom: 50px ;
+}
+footer .main .about{
+  padding-bottom: 50px;
+}
+footer .main .about h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #151515;
+}
+footer .main .about ul {
+  margin-top: 40px;
+}
+
+footer .main .about ul li {
+  padding-top: 18px;
+}
+
+footer .main .about ul li a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7B7B7B;
+}
+
+.copy-right p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #D0D0D0;
+  text-align: center;
+  padding: 33px 0px;
+}
+
+/* ================================ Footer css end ================================ */
